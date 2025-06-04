@@ -4,7 +4,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## 🚀 Features
+## Features
 
 - Follows a black line using 3 IR sensors (Left, Middle, Right)
 - Controls two DC motors via the L298N dual H-bridge motor driver
@@ -12,7 +12,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## 🛠️ Hardware Required
+## Hardware Required
 
 | Component              | Quantity |
 |------------------------|----------|
@@ -26,7 +26,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 ### Motor Driver (L298N):
 
@@ -49,7 +49,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## ⚙️ How It Works
+## ⚙How It Works
 
 - **Forward**: Middle sensor sees black; left and right see white.
 - **Left Turn**: Left sensor detects black (turn left to realign).
