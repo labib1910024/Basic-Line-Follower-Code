@@ -49,7 +49,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## ⚙How It Works
+## How It Works
 
 - **Forward**: Middle sensor sees black; left and right see white.
 - **Left Turn**: Left sensor detects black (turn left to realign).
@@ -58,7 +58,7 @@ This project implements a basic **line follower robot** using an **Arduino Uno**
 
 ---
 
-## 🧠 Logic Flow
+## Logic Flow
 
 ```text
 If L=0, M=1, R=0 => Forward
